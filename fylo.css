@@ -1,0 +1,220 @@
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 3em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+li a{
+    text-decoration: none;
+    font: 2rem;
+    color: black;
+    font-weight: 600;
+}
+nav ul li{
+    list-style-type: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0 1em;
+}
+section{
+   display: flex;
+   justify-content: space-between;
+    margin: 5%;
+}
+.illu{
+    width: 50%;
+}
+#trate{
+    width: 70%;
+    height: auto;
+    margin-left: 25%;
+}
+.all{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:hsl(243, 87%, 12%);
+}
+.para{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+input{
+    width: 40%;
+    height: 30px;
+    outline: none;
+}
+button{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10rem;
+    height: 30px;
+    border: none;
+    box-shadow: 0px 2px 2px rgb(77, 75, 75);
+    cursor: pointer;
+}
+::placeholder{
+    padding-left: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 100%, 99%);
+    height: 80vh;
+    padding: 50px;
+    position: relative;
+}
+.stu{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:hsl(243, 87%, 12%);
+}
+p{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:hsl(243, 87%, 12%);
+}
+#svg{
+    width: 70%;
+    height: auto;
+    margin-left: 25%;
+}
+a{
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+}
+.link{
+    font-size: 1rem;
+    text-decoration: none;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    width: fit-content;
+}
+.talk{
+    width: 60%;
+    height: 45vhx;
+    box-shadow:3px 3px 3px 3px rgb(175, 172, 172);
+    font-size: 0.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(243, 87%, 12%);
+    background-color: #fff;
+}
+h3{
+    padding: 10% 20px;
+    color: hsl(243, 87%, 12%);
+}
+.avatar{
+    display: flex;
+    margin: 0px 10px;
+    padding-bottom: 15px;
+}
+#avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin:0 3px;
+}
+.h{
+    display: block;
+    margin: 2px;
+   color: hsl(243, 87%, 12%);
+   font-size: 10px;
+   font-weight: 900;
+}
+span{
+    font-size: 9px;
+    color: hsl(243, 87%, 12%);
+}
+.subscribe-con{
+    height: 50%;
+    width: auto;
+    background-color:hsl(238, 22%, 44%);
+    padding: 5%;
+    display: flex;
+}
+.subscribe-con h1{
+    font-size: 2rem;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subscribe-con p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.sub2{
+    margin-left: 15%;
+}
+.subscribe-con input{
+    width: 300%;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    box-shadow:0px 2px 2px rgb(119, 115, 115);
+}
+.subscribe-con button{
+    width: 100%;
+    height: 40px;
+    box-shadow:0px 2px 2px rgb(94, 93, 93);
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    height: 50vh;
+    width: 100%;
+}
+#foot-logo{
+    filter: brightness(0) invert(1);
+}
+.FOOT1{
+    float: left;
+    width: 20%;
+}
+.FOOT1 ul li{
+    list-style-type: none;
+}
+.FOOT1 ul li a{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.foot2{
+    margin: 10% 1%;
+    padding: 10px 10px;
+}
+.log{
+    margin: 5%;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cta{
+    color: white !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+}
+#fb{
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+#tweet{
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+#ig{
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+footer .log{
+    margin: 5% 5%;
+    padding: 10px;
+}
+.foot3{
+    line-height: 2;
+}
